@@ -13,10 +13,10 @@ const DropBox: React.FC<DropBoxProps> = ({imgUrl, title, content, url}) => {
   const newImg = require(`../../assets/${imgUrl}.png`);
 
   return (
-    <div className="p-4 space-y-2 border-4 border-gray-500 rounded-lg w-80">
+    <div className="p-4 space-y-2 border-4 border-white rounded-lg w-80">
         <img src={newImg} />
-        <div className="text-2xl">{title}</div>
-        <div className="text-base">{content}</div>
+        <div className="text-2xl text-white">{title}</div>
+        <div className="text-base text-white">{content}</div>
         <Link to={`/collectibles/${url}`}>
           <Button title="Mint" className="items-center" />
         </Link>

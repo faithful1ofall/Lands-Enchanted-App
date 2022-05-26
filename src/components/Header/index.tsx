@@ -121,16 +121,17 @@ const Header: React.FC = () => {
   }
 
   return (
-    <div className="flex justify-between px-4 py-4 rounded-b-lg bg-rose-400 drop-shadow-2xl md:px-28">
+    <div className="flex justify-between px-4 py-4 rounded-b-lg bg-black  drop-shadow-2xl md:px-28">
         <div className="flex items-center gap-4">
             <NavLink to="/" className="w-20 h-20">
                 <img src={Logo} alt="logo" />
             </NavLink>
-            <div className="text-2xl text-white md:text-5xl drop-shadow-2xl font-Roboto">Pixel City</div>
+            <div className="text-5xl text-white md:text-5xl drop-shadow-2xl font-sans">LANDS</div>
+            <div className="text-5xl text-red-600 md:text-5xl drop-shadow-2xl font-sans">ENCHANTED</div>
         </div>
         <div className="flex items-center gap-4 text-white">
             <a href="/mynft" className="text-xl">My NFTs</a>
-            <button id="dropdownButton" data-dropdown-toggle="dropdown" className="px-2 py-2 text-base border-2 rounded-lg md:text-lg md:px-6 bg-emerald-900 hover:bg-blue-600">
+            <button id="dropdownButton" data-dropdown-toggle="dropdown" className="px-2 py-2 text-base border-2 rounded-full md:text-lg md:px-6 bg-red-600 hover:bg-neutral-800">
               {active? 'Wallet connected' : 'Connect Wallet'}
             </button>
             <div id="dropdown" className="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700">

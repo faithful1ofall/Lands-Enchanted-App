@@ -7,7 +7,7 @@ const PastDrops: React.FC = () => {
 
   return (
     <div className="py-4 px-28">
-        <div className="text-3xl text-center">Past Drops</div>
+        <div className="text-3xl text-center text-white">Past Drops</div>
     </div>
   );
 }
