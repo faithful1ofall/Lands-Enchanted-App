@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css';
 import Dashboard from './view/Dashboard';
 import MyNFT from './view/MyNFT';
-import PixelCity from './components/Collectibles/PixelCity';
+import PixelCity from './components/Collectibles/Land';
 
 
 const App: React.FC = () => {

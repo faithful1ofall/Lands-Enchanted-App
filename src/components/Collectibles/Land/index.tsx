@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { useWeb3React } from '@web3-react/core';
 import Web3 from "web3";
 import { TextField } from '@mui/material';
-import Header from '../../../components/Header'
+import Header from '../../Header'
 import Button from '../../Button'
-import collectibleImage from '../../../assets/pixelcity.png'
+import collectibleImage from '../../../assets/land.png'
 import { pixelcityContract as contract } from '../../../contract/contract';
 
 const web3 = new Web3(Web3.givenProvider)

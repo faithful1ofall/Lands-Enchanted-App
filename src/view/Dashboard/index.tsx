@@ -18,7 +18,7 @@ const Dashboard: React.FC = () => {
             Lands Enchanted is staking 50% of the revenue earned from our launchpad with our LET Token!
             </div>
             <div className='text-white'>Built by Enchanted Network.</div>
-            <a href='https://forms.gle/ZQiG5ukXRwy64rr29' target="_blank"><Button title='Apply' /></a>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLScZDnS1iHxfbq58lyb1CjG-oAlJqoLkS2UpOGyuaRZ4f_aOug/viewform' target="_blank"><Button title='Apply' /></a>
           </div>
         </div>
         <CurrentDrops />

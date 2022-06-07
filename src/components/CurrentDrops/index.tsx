@@ -9,7 +9,7 @@ const CurrentDrops: React.FC = () => {
     <div className="gap-0 p-4 space-y-4">
         <div className="text-3xl text-white text-center">Current Drops</div>
         <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
-            <DropBox imgUrl="pixelcity" title="Lands Enchanted" content="1000 NFTs with royalty sharing, NFT Staking, and a DAO." url="PixelCity" />
+            <DropBox imgUrl="land" title="Lands Enchanted" content="1000 NFTs with royalty sharing, NFT Staking, and a DAO." url="Land" />
         </div>
     </div>
   );
